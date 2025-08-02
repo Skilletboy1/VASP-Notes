@@ -1,0 +1,13 @@
+# NBANDS from OUTCAR
+## What to look for in OUTCAR
+1. NELECT
+2. NIONS
+
+## Formula
+NBANDS=NELECT/2+NIONS*2
+#### Example
+NELECT=456
+
+NIONS=81
+
+NBANDS=456/2+81*2=228+162=390
